@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           organizer[detailee] = {}
         end
       end
-      puts detail
+        organizer[detailee][datum] = []
     end
   end
   
