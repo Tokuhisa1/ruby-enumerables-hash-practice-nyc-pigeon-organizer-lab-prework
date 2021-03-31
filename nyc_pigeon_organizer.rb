@@ -10,10 +10,10 @@ def nyc_pigeon_organizer(data)
         end
         
         organizer[detailee][datum] = []
-        puts organizer
       end
     end
   end
-  
+
+  puts organizer
   organizer
 end
