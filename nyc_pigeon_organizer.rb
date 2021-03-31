@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
           organizer[detailee][datum] = []
         end
         
-        organizer[detailee][datum] << detail
+        organizer[detailee][datum] << detail.to_s
       end
     end
   end
