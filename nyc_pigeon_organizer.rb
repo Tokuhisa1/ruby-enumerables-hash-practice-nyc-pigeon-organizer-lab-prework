@@ -9,7 +9,11 @@ def nyc_pigeon_organizer(data)
           organizer[detailee] = {}
         end
         
-        organizer[detailee][datum] = []
+        if !organizer[detailee][datum]
+          organizer[detailee][datum] = []
+        end
+        
+        organizer[detailee][datum] << detail
       end
     end
   end
